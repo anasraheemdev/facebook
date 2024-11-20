@@ -1,0 +1,58 @@
+body {
+    background-color: #f0f2f5;
+}
+.login-container {
+    max-width: 400px;
+}
+.logo {
+    color: #1877f2;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+}
+.btn-facebook {
+    background-color: #1877f2;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+}
+.btn-facebook:hover {
+    background-color: #166fe5;
+    color: white;
+}
+.btn-new-account {
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+}
+.btn-new-account:hover {
+    background-color: #36a420;
+    color: white;
+}
+.divider {
+    border-bottom: 1px solid #dadde1;
+    margin: 20px 0;
+}
+/* New styles for password toggle */
+.password-container {
+    position: relative;
+}
+.password-toggle {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #666;
+    border: none;
+    background: none;
+    padding: 0;
+}
+.password-toggle:focus {
+    outline: none;
+}

@@ -1,0 +1,138 @@
+body{
+    /* scrollbar-color: #a84706 #e0e0e0;
+      scrollbar-width: thin; */
+  
+  }
+  .sideBar{
+    overflow: hidden;
+  }
+  .sideBar:hover{
+    overflow-y: scroll !important;
+    overflow-x: hidden;
+    /* scrollbar-color: #e0e0e0 rgb(163, 133, 133)ant;*/
+    scrollbar-width: thin !important; 
+  }
+  .main-stories, .scroller::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .pop-avatar{
+    width: 48px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 50%;
+    
+  }
+  .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+  }
+  .createRoom {
+    font-size: 72px;
+    background: -webkit-linear-gradient( #0066ff 0%, #ff33cc 100%);
+    
+    -webkit-text-fill-color: transparent;
+  }
+  /* stories */
+  .story:hover{
+    opacity: .8;
+  }
+  .fs-0 {
+    font-size: 4rem;
+  }
+  .fs-7 {
+    font-size: 0.8rem;
+  }
+  .fw-bold{
+    font-weight:350 !important;
+  }
+  .bg-gray-dark{
+    background-color: #ececec !important;
+  }
+  .hoverDark:hover{
+    background-color: #d8d8d8 !important;
+  }
+  .hoverLight:hover{
+    background-color: #F0F0F0 !important;
+  }
+  .bg-gray {
+    background-color: #e9ecef !important;
+  }
+  /* nav button */
+  .btn button:hover {
+    background: #f0f2f5 !important;
+  }
+  .nav__btn button:hover i {
+    color: #0d6efd !important;
+  }
+  .nav__btn-active i {
+    color: #0d6efd !important;
+  }
+  .nav__btn-active {
+    position: relative;
+  }
+  .nav__btn-active::before {
+    content: "";
+    position: absolute;
+    bottom: -4.5px;
+    left: 0;
+    transform: translateY(4.5px);
+    width: 100%;
+    height: 3px;
+    border-bottom: solid #0d6efd !important;
+  }
+  /* chat box */
+  .modal-content:hover .fa-phone,
+  .modal-content:hover .fa-video,
+  .modal-content:hover .fa-file-image,
+  .modal-content:hover .fa-circle-plus,
+  .modal-content:hover .fa-portrait,
+  .modal-content:hover .fa-adjust,
+  .modal-content:hover .fa-thumbs-up{
+    color:#0d6efd !important
+  }
+  .txt:hover {
+    text-decoration: underline;
+  }
+  
+  @media (min-width: 62em) {
+    footer {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  }
+  @media (max-width:768px) {
+    ::-webkit-scrollbar {
+      display: none;
+    }
+    .timeline{
+      margin: 0;
+      padding: 0 !important;
+    }
+    .notification{
+      display: none !important;
+    }
+  }
+  ::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  .timeline::-webkit-scrollbar {
+    display: none;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #e9ecef;
+    
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    background: #C8C8C8;
+    border: 6px solid rgba(0,0,0,0.2);
+  }
